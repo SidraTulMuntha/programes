@@ -8,6 +8,5 @@ while (a<11)
     cout<<a;      // code 
     a++;
 }
-return 0;
 
 }
