@@ -7,6 +7,7 @@ while (a<11)
 {
     cout<<a;      // code 
     a++;
+    //this was reviewed
 }
 
 }
