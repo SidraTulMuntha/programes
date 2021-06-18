@@ -8,7 +8,7 @@ char operator;
 double a,b;
 printf("enter the operator\n");
 scanf("%c",&operator);
-printf("enterv the values\n");
+printf("enter the values\n");
 scanf("%lf%lf",&a,&b);
    switch(operator)
    {
