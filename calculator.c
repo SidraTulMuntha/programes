@@ -17,6 +17,7 @@ scanf("%lf%lf",&a,&b);
     break;
     case'/': printf("division of two numbers\n %lf/%lf=%.2lf",a,b,a/b);
     break;
+        // operator doesn't match any case constant 
     default:printf("eror in input");
     break;
    }
