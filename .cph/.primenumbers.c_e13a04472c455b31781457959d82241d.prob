@@ -1,0 +1,1 @@
+{"name":"Local: primenumbers","url":"a:\\Github Repositories\\programs\\primenumbers.c","tests":[{"id":1624090526837,"input":"5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"a:\\Github Repositories\\programs\\primenumbers.c","group":"local","local":true}
