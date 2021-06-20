@@ -1,0 +1,1 @@
+{"name":"Local: primenumber","url":"a:\\Github Repositories\\programs\\primenumber.cpp","tests":[{"id":1624201041640,"input":"20\n30\n0\n+\nY\n10\n20\n/\nN","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"a:\\Github Repositories\\programs\\primenumber.cpp","group":"local","local":true}
