@@ -1,0 +1,10 @@
+1. Make a file named 'advanceCalculator.cpp' 
+2. Make an advance calculator using the functions
+
+
+3. Make a file named 'functionalCalculator.c'
+2. Make a simple calculator using the functions
+
+
+Try by calling them again and again
+Don't worry just try  nhi hoga meet pe krenge
