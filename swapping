@@ -1,0 +1,16 @@
+#include<stdio.h>
+void swap(int x, int y);                  // formal parameter and function declaration
+void main()
+{
+    int a=10, b =20;
+printf("Before swaping a=%d, b=%d\n",a,b);
+swap(a,b);                                  // function calling
+}
+void swap(int x, int y)
+{
+int t;
+t=x;
+x=y;
+y=t;
+printf("After swaping a=%d, b =%d", x,y);
+}
