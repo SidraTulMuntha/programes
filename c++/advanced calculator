@@ -1,0 +1,36 @@
+// call by reference
+
+#include<iostream>
+using namespace std;
+int calculation(int &a, int &b, char &c);               // formal parameters
+
+{
+ switch(c)
+    {
+     case'+': return a+b;
+           break;
+     case'-': return a-b;
+       break;
+     case'/': return a/b;
+       break;
+     case'*': return a*b;
+       break;
+    default:
+    return 0;
+    break;
+    }
+    
+}
+int main()
+{
+
+int a, b;                                            // acual parameters 
+cout<<"enter the values"<<'\n';
+cin>>a>>b;
+char c;
+cout<<"Enter the operator"<<'\n';
+cin>>c;
+int returnvalue= calculation(a,b,c);
+cout<<returnvalue<<'\n';
+return 0;
+}
