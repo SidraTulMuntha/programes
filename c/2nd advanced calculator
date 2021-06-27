@@ -1,0 +1,55 @@
+// call by value.
+#include<stdio.h>
+void calculator(double a,double b,char c)
+{
+
+   
+ switch(c)
+  {
+     case'+': printf("%lf + %lf = %lf",a,b,a+b);
+             break;
+     case'-': printf(" %lf - %lf = %lf",a,b,a-b);
+              break;
+     case'*': printf(" %lf * %lf = %lf",a,b,a*b);
+              break;
+     case'/': printf(" %lf / %lf = %lf",a,b,a/b);
+              break;
+     
+      //operator does not match
+         default:printf("error in input");
+         
+         break;
+  }
+ 
+}
+int main()
+{
+char runagain;
+do 
+{
+double a,b;
+char c;
+
+printf("Enter the values : \n");
+scanf("%lf%lf",&a,&b);
+
+printf("Enter the operator : ");
+scanf("%c",&c);
+scanf("%c",&c);
+
+calculator(a,b,c);
+runagainlable:
+printf("if you want to calculate enter Y or N to stop : ");
+scanf("%c",&runagain);
+scanf("%c",&runagain);
+
+if(runagain!='y' && runagain!='n')
+{
+goto runagainlable;
+}
+}
+while(runagain == 'y');
+
+return 0;
+
+}
