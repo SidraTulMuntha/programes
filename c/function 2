@@ -1,0 +1,16 @@
+   // function without arguments and without return value
+#include<stdio.h>
+void sum();
+void main()
+{
+    printf("calulating the sum of 2 numbers\n");
+     sum();
+}
+
+void sum()
+{
+    int a,b;
+printf("Enter the 2 numbers : ");
+scanf("%d%d",&a,&b);
+printf("sum = %d",a+b);
+}
