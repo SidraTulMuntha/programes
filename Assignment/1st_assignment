@@ -1,0 +1,14 @@
+// Program to calculate area of triangle using formula _/s(s-a)(s-b)(s-c)
+
+#include<stdio.h>
+#include<math.h>              // using math.h library function.
+int main()
+{
+float a,b,c,s,at;
+    printf("Enter the three sides of a triangle : ");
+    scanf("%f%f%f",&a,&b,&c);
+    s=(a+b+c)/2;
+    at= sqrt(s*(s-a)*(s-b)*(s-c));             // using sqrt function for square root.
+    printf("area of triangle is %.2f",at);
+    return 0;
+}
