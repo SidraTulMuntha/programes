@@ -1,0 +1,24 @@
+//program to remove all the blank space from the string & print it .
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+int i=0,j=0,len;
+char aj[1000],mj[1000];
+    printf("Enter the string\n : ");
+    gets(aj);
+    len=strlen(aj);
+    while (aj[i]!='\0')
+    {
+        if (aj[i]!=' ')
+        {
+            mj[j]=aj[i];
+            j++;
+        }
+        i++;
+    }
+    mj[j]='\0';
+printf("\n\nthe string after removing all spaces is  :%s",mj);
+printf("\n\nstring contains no  of character = %d",strlen(mj));
+    return 0;
+}
