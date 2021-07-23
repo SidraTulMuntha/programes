@@ -1,0 +1,28 @@
+#include<stdio.h>
+#define row 2
+#define col 5
+int main()
+{
+int table[row][col],array[row*col],i,j;
+printf("Enter the elements: \n");
+
+for ( i = 0; i < row; i++)
+{
+    for ( j = 0; j < col; j++)
+    {
+        scanf("%d",&table[i][j]);
+    }
+}
+for ( i = 0; i < row; i++)
+{
+    for ( j = 0; j < col; j++)
+    {
+        array[i*col +j]=table[i][j];
+    }
+    
+}
+printf("1-d array is :\n");
+for(i=0;i<row*col;i++)
+printf("%d\t",array[i]);
+return 0;
+}
